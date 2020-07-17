@@ -95,15 +95,27 @@ footer {
   flex-flow: row wrap;
 }
 
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+  width: 100%;
 }
 
 main, footer {
   flex-flow: row wrap;
+}
+
+main .content-wrapper {
+  margin: 0;
+  padding: 0 20px;
+  width: 100%;
 }
 
 header nav {
@@ -111,6 +123,11 @@ header nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+}
+
+.header-divider {
+  width: 60%;
 }
 
 header nav ul {
@@ -142,6 +159,11 @@ header nav ul li a:hover {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 100%;
+}
+
+.hero-area h1 {
+  margin: 75px 0 325px 0;
 }
 
 aside {
@@ -149,6 +171,8 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 30px 0;
+  width: 100%;
 }
 
 .features {
@@ -157,6 +181,12 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 50px 0;
+}
+
+.features p {
+  margin: 0;
+  padding: 20px 0;
 }
 
 .features .features-items {
@@ -170,11 +200,35 @@ aside {
   text-align: center;
 }
 
+.features article {
+  width: 60%;
+}
+
 .reviews {
+  background: grey;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 25px 0;
+  width: 100%;
+}
+
+.reviews h2 {
+  margin: 0;
+  padding: 25px 0;
+  width: 60%;
+}
+
+.reviews h3 {
+  margin: 0;
+  padding: 10px 0;
+  width: 60%;
+}
+
+.reviews p {
+  margin: 0;
+  padding: 10px 0;
 }
 
 .mission {
@@ -182,6 +236,8 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 25px 0;
+  width: 100%;
 }
 
 .contact-section {
@@ -189,6 +245,8 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 25px 0;
+  width: 100%;
 }
 
 .faq {
@@ -196,6 +254,8 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 25px 0;
+  width: 100%;
 }
 
 .faq .content-wrapper {
@@ -205,6 +265,17 @@ aside {
   flex-flow: row wrap;
 }
 
+.footer .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  margin: 50px 0;
+}
+
+.footer p {
+  margin: 0;
+}
 
 .footer .social-icons {
   display: flex;
